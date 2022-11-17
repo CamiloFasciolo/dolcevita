@@ -78,9 +78,153 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+/* ---------------------- INICIO QUIENES SOMOS CELULAR ---------------------- */
+
+
+
+.header-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f4c1c0;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.text-header {
+    font-weight: bold;
+    color: #975C58;
+    font-size: 30px;
+    margin: auto;
+}
+
+.img-header {
+    width: 100%;
+    z-index: 1;
+}
+
+.textos-quienesomoscel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
+
+.tittle-quienesomoscel {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #975C58;
+}
+
+.parrafo-quienesomoscel {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E3E3E;
+    padding-top: 1em;
+}
+
+.btn-reservacel a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-reservacel {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #827777;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+
+
+
+    .rectangulo {
+        display: none;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+
+
+}
+
+/* ------------------- FIN QUIENES SOMOS CELULAR ------------------ */
+
+/* ------------------- INICIO QUIENES SOMOS DESKTOP ------------------ */
+
+
+
+@media (min-width: 1280px) and (max-width: 3000px) {
+
+    .img-header {
+        position: absolute;
+        top: 0%;
+        width: 50%;
+        max-height: 100vh;
+    }
+
+    .textos-quienesomoscel {
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60%;
+        top: 45%;
+        right: 5%;
+        margin: 3em;
+    }
+
+
+    .parrafo-quienesomoscel {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: #3E3E3E;
+        padding-top: 1em;
+    }
+
+    .header-index {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        background-color: #fff;
+
+    }
+
+    .text-header {
+        padding-bottom: 6px;
+    }
+
+
+}
+
+
+
+
+
+
+/* ------------------- FIN QUIENES SOMOS DESKTOP ------------------ */
+
+
+
+
+
+
 /* ------------------------------ QUIENES SOMOS ----------------------------- */
 
-.section-quienesomos {
+/*.section-quienesomos {
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -96,7 +240,7 @@ nav ul li a:hover {
     margin: 3em;
 }
 
-.img-quienesomos{
+.img-quienesomos {
     position: absolute;
     top: 0%;
     width: 50%;
@@ -107,11 +251,11 @@ nav ul li a:hover {
 .tittle-quienesomos {
     font-size: 40px;
     font-family: 'Dancing Script', cursive;
-    color: #975C58 ;
+    color: #975C58;
 }
 
 
-.parrafo-quienesomos{
+.parrafo-quienesomos {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #3E3E3E;
@@ -123,7 +267,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.btn-div{
+.btn-div {
     margin-top: 1em;
     position: absolute;
     left: -10%;
@@ -132,7 +276,8 @@ nav ul li a:hover {
 }
 
 .btn-reserva {
-    font-family: 'Montserrat', sans-serif;    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
     font-size: 15px;
     background-color: #827777;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -163,7 +308,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: #0df053;
     background-color: #fff;
-}
+}*/
 
 /* ---------------------------- FIN QUIENES SOMOS --------------------------- */
 
@@ -185,7 +330,7 @@ nav ul li a:hover {
     margin: 3em;
 }
 
-.img-materiales{
+.img-materiales {
     position: absolute;
     top: 0%;
     width: 50%;
@@ -200,7 +345,7 @@ nav ul li a:hover {
 }
 
 
-.parrafo-materiales{
+.parrafo-materiales {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     color: #3E3E3E;
@@ -213,7 +358,7 @@ nav ul li a:hover {
     color: #fff;
 }
 
-.btn-div{
+.btn-div {
     margin-top: 1em;
     position: absolute;
     left: -10%;
@@ -222,7 +367,8 @@ nav ul li a:hover {
 }
 
 .btn-reserva {
-    font-family: 'Montserrat', sans-serif;    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
     font-size: 15px;
     background-color: #827777;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
