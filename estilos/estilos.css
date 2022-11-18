@@ -144,6 +144,28 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+}
+
 @media (min-width: 320px) and (max-width: 1280px) {
 
 
@@ -207,6 +229,27 @@ nav ul li a:hover {
         padding-bottom: 6px;
     }
 
+    .btn-wsp {
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background-color: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+    
+    .btn-wsp:hover {
+        text-decoration: none;
+        color: #0df053;
+        background-color: #fff;
+    }
 
 }
 
@@ -312,9 +355,208 @@ nav ul li a:hover {
 
 /* ---------------------------- FIN QUIENES SOMOS --------------------------- */
 
+/* -------------------------- INICIO MATERIALES CEL ------------------------- */
+
+
+.header-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f4c1c0;
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.text-header {
+    font-weight: bold;
+    color: #975C58;
+    font-size: 30px;
+    margin: auto;
+}
+
+.textos-materialescel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
+
+.tittle-materialescel {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #3E3E3E;
+    display: flex;
+    align-content: center;
+}
+
+
+.parrafo-materialescel {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E3E3E;
+    padding-top: 1em;
+}
+
+
+.btn-reservacel2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-reservacel2 {
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #827777;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-wsp {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-wsp:hover {
+    text-decoration: none;
+    color: #0df053;
+    background-color: #fff;
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+
+
+
+    .rectangulo {
+        display: none;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+
+
+}
+
+
+/* --------------------------- FIN MATERIALES CEL --------------------------- */
+
+/* ------------------------ INICIO MATERIALES DESKTOP ----------------------- */
+
+@media (min-width: 1280px) and (max-width: 3000px) {
+
+    .img-header {
+        position: absolute;
+        top: 0%;
+        width: 50%;
+        max-height: 100vh;
+    }
+
+    .textos-materialescel {
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60%;
+        top: 45%;
+        right: 5%;
+        margin: 3em;
+    }
+
+
+    .parrafo-materialescel {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: #3E3E3E;
+        padding-top: 1em;
+    }
+
+    .header-index {
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        background-color: #fff;
+
+    }
+
+    .text-header {
+        padding-bottom: 6px;
+    }
+
+    .btn-wsp {
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background-color: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+    
+    .btn-wsp:hover {
+        text-decoration: none;
+        color: #0df053;
+        background-color: #fff;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------- FIN MATERIALES DESKTOP ------------------------- */
+
+
+
+
+
+
+
+
+
+
 /* ---------------------------- INICIO MATERIALES --------------------------- */
 
-.section-materiales {
+/*.section-materiales {
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -400,7 +642,7 @@ nav ul li a:hover {
     text-decoration: none;
     color: #0df053;
     background-color: #fff;
-}
+}*/
 
 /* ----------------------------- FIN MATERIALES ----------------------------- */
 
