@@ -20,7 +20,7 @@
 .frase-bienvenida {
     position: absolute;
     z-index: 150;
-    top: 45%;
+    top: 50%;
     left: 33%;
     color: white;
     font-family: 'Lobster', cursive;
