@@ -20,11 +20,16 @@
 .frase-bienvenida {
     position: absolute;
     z-index: 150;
-    top: 50%;
+    top: 40%;
     left: 33%;
     color: white;
     font-family: 'Lobster', cursive;
     font-size: 70px;
+}
+
+.frase-bienvenida a {
+    text-decoration: none;
+    color: #975C58;
 }
 
 @media (min-width: 320px) and (max-width: 1280px) {
