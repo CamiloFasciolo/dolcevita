@@ -34,21 +34,21 @@
 
 @media (min-width: 320px) and (max-width: 1280px) {
 
-.fondo-bienvenida {
-    width: 100%;
-    max-width: 100vw;
-    max-height: 100vh;
-}
+    .fondo-bienvenida {
+        width: 100%;
+        max-width: 100vw;
+        max-height: 100vh;
+    }
 
-.frase-bienvenida {
-    position: absolute;
-    left: 3em;
-    font-size: 30px;
-}
+    .frase-bienvenida {
+        position: absolute;
+        left: 3em;
+        font-size: 30px;
+    }
 
-.header {
-    display: none;
-}
+    .header {
+        display: none;
+    }
 
 }
 
@@ -103,9 +103,106 @@ nav ul li a:hover {
     transition: .3s;
 }
 
+/* ------------------------ INICIO DOLCE VITA CELULAR ----------------------- */
+
+.img-header {
+    width: 100%;
+    z-index: 1;
+}
+
+.textos-dolcecel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em;
+}
+
+.tittle-dolcecel {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: #975C58;
+}
+
+.parrafo-dolcecel {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E3E3E;
+    padding-top: 1em;
+}
+
+/* ------------------------- FIN DOLCE VITA CELULAR ------------------------- */
+
+/* ------------------------ INICIO DOLCE VITA DESKTOP ----------------------- */
+
+@media (min-width: 1200px) and (max-width: 3000px) {
+
+    .header-index {
+        position: absolute;
+        top: 20%;
+        left: 55%;
+        background-color: #fff;
+        max-width: 100vw;
+        width: 45%;
+        padding-left: 3em;
+    }
+
+    .img-header {
+        position: absolute;
+        top: 0%;
+        width: 50%;
+        max-height: 100vh;
+    }
+
+    .textos-dolcecel {
+        max-width: 50vw;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60%;
+        top: 28%;
+        right: 5%;
+        margin: 3em;
+    }
+
+
+    .parrafo-dolcecel {
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: #3E3E3E;
+        padding-top: 1em;
+    }
+
+
+    .text-header {
+        padding-bottom: 6px;
+    }
+
+    .btn-wsp {
+        position: fixed;
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+        bottom: 30px;
+        right: 30px;
+        background-color: #0df053;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+        z-index: 100;
+    }
+
+    .btn-wsp:hover {
+        text-decoration: none;
+        color: #0df053;
+        background-color: #fff;
+    }
+
+}
+
+/* ------------------------- FIN DOLCE VITA DESKTOP ------------------------ */
 /* ---------------------- INICIO QUIENES SOMOS CELULAR ---------------------- */
-
-
 
 .header-index {
     display: flex;
@@ -114,7 +211,6 @@ nav ul li a:hover {
     background-color: #f4c1c0;
     font-family: 'Dancing Script', cursive;
     position: absolute;
-    top: 0;
     width: 100%;
 }
 
@@ -214,7 +310,17 @@ nav ul li a:hover {
 
 
 
-@media (min-width: 1280px) and (max-width: 3000px) {
+@media (min-width: 1200px) and (max-width: 3000px) {
+
+    .header-index {
+        position: absolute;
+        top: 20%;
+        left: 55%;
+        background-color: #fff;
+        max-width: 100vw;
+        width: 45%;
+        padding-left: 3em;
+    }
 
     .img-header {
         position: absolute;
@@ -229,7 +335,7 @@ nav ul li a:hover {
         flex-direction: column;
         position: absolute;
         left: 60%;
-        top: 45%;
+        top: 40%;
         right: 5%;
         margin: 3em;
     }
@@ -242,13 +348,6 @@ nav ul li a:hover {
         padding-top: 1em;
     }
 
-    .header-index {
-        position: absolute;
-        top: 20%;
-        left: 60%;
-        background-color: #fff;
-
-    }
 
     .text-header {
         padding-bottom: 6px;
@@ -269,7 +368,7 @@ nav ul li a:hover {
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
         z-index: 100;
     }
-    
+
     .btn-wsp:hover {
         text-decoration: none;
         color: #0df053;
@@ -372,17 +471,6 @@ nav ul li a:hover {
 /* -------------------------- INICIO MATERIALES CEL ------------------------- */
 
 
-.header-index {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: #f4c1c0;
-    font-family: 'Dancing Script', cursive;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
 .text-header {
     font-weight: bold;
     color: #975C58;
@@ -478,7 +566,7 @@ nav ul li a:hover {
 
 /* ------------------------ INICIO MATERIALES DESKTOP ----------------------- */
 
-@media (min-width: 1280px) and (max-width: 3000px) {
+@media (min-width: 1200px) and (max-width: 3000px) {
 
     .img-header {
         position: absolute;
@@ -496,6 +584,7 @@ nav ul li a:hover {
         top: 45%;
         right: 5%;
         margin: 3em;
+        top: 40%;
     }
 
 
@@ -506,13 +595,6 @@ nav ul li a:hover {
         padding-top: 1em;
     }
 
-    .header-index {
-        position: absolute;
-        top: 20%;
-        left: 60%;
-        background-color: #fff;
-
-    }
 
     .text-header {
         padding-bottom: 6px;
@@ -533,7 +615,7 @@ nav ul li a:hover {
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
         z-index: 100;
     }
-    
+
     .btn-wsp:hover {
         text-decoration: none;
         color: #0df053;
@@ -646,4 +728,3 @@ nav ul li a:hover {
 }*/
 
 /* ----------------------------- FIN MATERIALES ----------------------------- */
-
