@@ -457,6 +457,28 @@ nav ul li a:hover {
 
 /* ------------------------ FIN MIS FAVORITOS DESKTOP ----------------------- */
 
+/* ------------------------ INICIO MIS FAVORITOS CELU ----------------------- */
+
+@media (min-width: 380px) and (max-width: 1200px) {
+
+
+.header-index {
+    z-index: 2;
+}
+
+
+.col {
+position: absolute;
+top: 3px;
+}
+
+.card {
+    margin-top: 14em;
+}
+
+}
+
+/* ------------------------- FIN MIS FAVORITOS CELU ------------------------- */
 
 /* ------------------------------ QUIENES SOMOS ----------------------------- */
 
