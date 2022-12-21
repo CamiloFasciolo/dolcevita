@@ -149,6 +149,7 @@ nav ul li a:hover {
     }
 
     .img-header {
+        z-index: 2;
         position: absolute;
         top: 0%;
         width: 50%;
@@ -230,7 +231,7 @@ nav ul li a:hover {
     width: 100%;
 }
 
-.text-header a{
+.text-header a {
     font-weight: bold;
     color: #975C58;
     font-size: 30px;
@@ -239,7 +240,7 @@ nav ul li a:hover {
 
 .text-header a:hover {
     color: #f4c1c0;
-    text-decoration:underline; 
+    text-decoration: underline;
     transition: all 0.5s;
 }
 
@@ -372,7 +373,7 @@ nav ul li a:hover {
         padding-bottom: 6px;
     }
 
-    .btn-wsp{
+    .btn-wsp {
         position: fixed;
         width: 55px;
         height: 55px;
@@ -404,14 +405,14 @@ nav ul li a:hover {
 
 
 
-/* -------------------------- INICIO MIS FAVORITOS DESKTOP-------------------------- */
+/* -------------------------- INICIO VESTIDOS DESKTOP-------------------------- */
 
 .col {
     padding: 0;
     margin: 0;
     gap: 1em;
     display: flex;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -423,35 +424,35 @@ nav ul li a:hover {
     background-color: #FFF4F3;
     border-radius: 20px;
     box-shadow: 2px 4px 2px rgb(184, 184, 184);
-    margin-top: 20em;  
+    margin-top: 20em;
 }
 
-.card-text{
+.card-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
 
-.card > img{
+.card>img {
     padding-right: 1%;
     object-fit: cover;
     border-radius: 20px;
 }
 
 
-.card-body{
+.card-body {
     background-color: #FFF4F3;
     border-radius: 20px;
     height: 30px;
 }
 
-.card-body > h5{
-    color:#827777;
+.card-body>h5 {
+    color: #827777;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.input-Box5{
+.input-Box5 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -459,7 +460,7 @@ nav ul li a:hover {
     z-index: 5;
 }
 
-.btn-stock{
+.btn-stock {
     font-family: 'Montserrat', sans-serif;
     padding: 10px 20px;
     font-size: 15px;
@@ -476,24 +477,24 @@ nav ul li a:hover {
 
 /* ------------------------ FIN MIS FAVORITOS DESKTOP ----------------------- */
 
-/* ------------------------ INICIO MIS FAVORITOS CELU ----------------------- */
+/* ------------------------ INICIO VESTIDOS CELU ----------------------- */
 
 @media (min-width: 380px) and (max-width: 1000px) {
 
 
-.header-index {
-    z-index: 2;
-}
+    .header-index {
+        z-index: 2;
+    }
 
 
-.col {
-position: absolute;
-top: 3px;
-}
+    .col {
+        position: absolute;
+        top: 3px;
+    }
 
-.card {
-    margin-top: 14em;
-}
+    .card {
+        margin-top: 14em;
+    }
 
 }
 
@@ -580,6 +581,9 @@ top: 3px;
 
 /* -------------------------- INICIO MATERIALES CEL ------------------------- */
 
+.img-header {
+    width: 100%;
+}
 
 .text-header {
     font-weight: bold;
@@ -735,22 +739,35 @@ top: 3px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------- FIN MATERIALES DESKTOP ------------------------- */
 
+/* ------------------------------ FOOTER PAGES ------------------------------ */
+
+.footerstyle-paginas {
+    z-index: 100;
+    background-color: #F4C1BE;
+    position: absolute;
+    top: 100%;
+width: 100%;
+}
+
+@media (min-width: 1800px) and (max-width: 3000px) {
+
+.footerstyle-paginas {
+    position: absolute;
+    top: 98%;
+width: 100%;
+}
+
+}
+
+@media (min-width: 380px) and (max-width: 900px) {
+    .footerstyle-paginas {
+        position: absolute;
+        top: 120%;
+min-width: 100vw;
+    }
+}
 
 
 
@@ -759,6 +776,111 @@ top: 3px;
 
 
 
+/* -------------------------------- FIN PAGES ------------------------------- */
+
+/* --------------------------------- FOOTER VESTIDOS--------------------------------- */
+
+.fa-instagram,
+.fa-facebook {
+    color: #827777;
+    font-size: 40px;
+    margin-top: 14px;
+    padding-left: 0.5em;
+}
+
+
+.contenedor_logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+
+.contenedor_logos>h3 {
+    font-family: 'Dancing Script', cursive;
+    color: #827777;
+    font-size: 3rem;
+}
+
+
+.footerstyle {
+    z-index: 100;
+    background-color: #F4C1BE;
+    position: absolute;
+    top: 440%;
+    width: 100%;
+}
+
+.contenedor_imgs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.contenedor_imgs>p {
+    font-family: 'Montserrat', sans-serif;
+    color: #827777;
+    margin-top: 1%;
+}
+
+.contenedor_imgs>img {
+    object-fit: contain;
+}
+
+/* ----------------------- INICIO FOOTER MEDAS QUERIES ---------------------- */
+
+
+/* -------------------------------- DESKTOP -------------------------------- */
+
+@media (min-width: 1800px) and (max-width: 3000px) {
+
+    .footerstyle {
+        position: absolute;
+        top: 350%;
+    }
+
+
+}
+
+/* ------------------------------- FIN DESKTOP ------------------------------ */
+
+@media (min-width: 360px) and (max-width: 1200px) {
+
+    .contenedor_imgs>p {
+        display: none;
+    }
+
+    .contenedor_imgs {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .fa-instagram,
+    .fa-facebook {
+        color: #975C58;
+    }
+
+    .contenedor_logos {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+
+    .contenedor_logos>h3 {
+        display: none;
+    }
+
+}
+
+/* ------------------------ FIN FOOTER MEDIAS QUERIES ----------------------- */
+
+/* ------------------------------- FIN FOOTER ------------------------------- */
 
 /* ---------------------------- INICIO MATERIALES --------------------------- */
 
