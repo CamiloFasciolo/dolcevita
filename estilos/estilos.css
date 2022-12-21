@@ -743,148 +743,177 @@ nav ul li a:hover {
 
 /* ------------------------------ FOOTER PAGES ------------------------------ */
 
-.footerstyle-paginas {
+.footerstyle-materiales,
+.footerstyle-quienes,
+.footerstyle-dolce {
     z-index: 100;
     background-color: #F4C1BE;
     position: absolute;
     top: 100%;
-width: 100%;
-}
-
-@media (min-width: 1800px) and (max-width: 3000px) {
-
-.footerstyle-paginas {
-    position: absolute;
-    top: 98%;
-width: 100%;
-}
-
-}
-
-@media (min-width: 380px) and (max-width: 900px) {
-    .footerstyle-paginas {
-        position: absolute;
-        top: 120%;
-min-width: 100vw;
-    }
-}
-
-
-
-
-
-
-
-
-/* -------------------------------- FIN PAGES ------------------------------- */
-
-/* --------------------------------- FOOTER VESTIDOS--------------------------------- */
-
-.fa-instagram,
-.fa-facebook {
-    color: #827777;
-    font-size: 40px;
-    margin-top: 14px;
-    padding-left: 0.5em;
-}
-
-
-.contenedor_logos {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 15px;
-    margin-left: 5%;
-}
-
-.contenedor_logos>h3 {
-    font-family: 'Dancing Script', cursive;
-    color: #827777;
-    font-size: 3rem;
-}
-
-
-.footerstyle {
-    z-index: 100;
-    background-color: #F4C1BE;
-    position: absolute;
-    top: 440%;
     width: 100%;
 }
 
-.contenedor_imgs {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 30px;
-    margin-top: 1%;
-    margin-left: 5%;
-}
-
-.contenedor_imgs>p {
-    font-family: 'Montserrat', sans-serif;
-    color: #827777;
-    margin-top: 1%;
-}
-
-.contenedor_imgs>img {
-    object-fit: contain;
-}
-
-/* ----------------------- INICIO FOOTER MEDAS QUERIES ---------------------- */
-
-
-/* -------------------------------- DESKTOP -------------------------------- */
-
 @media (min-width: 1800px) and (max-width: 3000px) {
 
-    .footerstyle {
+    .footerstyle-materiales,
+    .footerstyle-quienes,
+    .footerstyle-dolce {
         position: absolute;
-        top: 350%;
+        top: 98%;
+        width: 100%;
     }
 
 
 }
 
-/* ------------------------------- FIN DESKTOP ------------------------------ */
 
-@media (min-width: 360px) and (max-width: 1200px) {
 
-    .contenedor_imgs>p {
-        display: none;
+    @media (min-width: 380px) and (max-width: 900px) {
+        .footerstyle-dolce{
+            position: absolute;
+            top: 140%;
+            min-width: 100vw;
+        }
+
+
+    .footerstyle-materiales {
+        position: absolute;
+        top: 120%;
+        min-width: 100vw;
+    }
+
+    .footerstyle-quienes {
+        position: absolute;
+        top: 113%;
+        min-width: 100vw;
+    }
+
+    }
+
+
+
+
+
+
+
+
+    /* -------------------------------- FIN PAGES ------------------------------- */
+
+    /* --------------------------------- FOOTER VESTIDOS--------------------------------- */
+
+    .fa-instagram,
+    .fa-facebook {
+        color: #827777;
+        font-size: 40px;
+        margin-top: 14px;
+        padding-left: 0.5em;
+    }
+
+
+    .contenedor_logos {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 15px;
+        margin-left: 5%;
+    }
+
+    .contenedor_logos>h3 {
+        font-family: 'Dancing Script', cursive;
+        color: #827777;
+        font-size: 3rem;
+    }
+
+
+    .footerstyle {
+        z-index: 100;
+        background-color: #F4C1BE;
+        position: absolute;
+        top: 850%;
+        width: 100%;
     }
 
     .contenedor_imgs {
         display: flex;
         justify-content: center;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 1%;
+        margin-left: 5%;
+    }
+
+    .contenedor_imgs>p {
+        font-family: 'Montserrat', sans-serif;
+        color: #827777;
+        margin-top: 1%;
+    }
+
+    .contenedor_imgs>img {
+        object-fit: contain;
+    }
+
+    /* ----------------------- INICIO FOOTER MEDAS QUERIES ---------------------- */
+
+
+    /* -------------------------------- DESKTOP -------------------------------- */
+
+    @media (min-width: 1800px) and (max-width: 3000px) {
+
+        .footerstyle {
+            position: absolute;
+            top: 350%;
+        }
+
     }
 
 
-    .fa-instagram,
-    .fa-facebook {
-        color: #975C58;
+    @media (min-width: 1000px) and (max-width: 1800px){
+
+        .footerstyle {
+            position: absolute;
+            top: 440%;
+        }
+
+    }
+    /* ------------------------------- FIN DESKTOP ------------------------------ */
+
+    @media (min-width: 360px) and (max-width: 1200px) {
+
+        .contenedor_imgs>p {
+            display: none;
+        }
+
+        .contenedor_imgs {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .fa-instagram,
+        .fa-facebook {
+            color: #975C58;
+        }
+
+        .contenedor_logos {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 10px;
+        }
+
+
+        .contenedor_logos>h3 {
+            display: none;
+        }
+
     }
 
-    .contenedor_logos {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 10px;
-    }
+    /* ------------------------ FIN FOOTER MEDIAS QUERIES ----------------------- */
 
+    /* ------------------------------- FIN FOOTER ------------------------------- */
 
-    .contenedor_logos>h3 {
-        display: none;
-    }
+    /* ---------------------------- INICIO MATERIALES --------------------------- */
 
-}
-
-/* ------------------------ FIN FOOTER MEDIAS QUERIES ----------------------- */
-
-/* ------------------------------- FIN FOOTER ------------------------------- */
-
-/* ---------------------------- INICIO MATERIALES --------------------------- */
-
-/*.section-materiales {
+    /*.section-materiales {
     min-height: 100vh;
     min-width: 100vw;
 }
@@ -959,4 +988,4 @@ min-width: 100vw;
     background-color: #fff;
 }*/
 
-/* ----------------------------- FIN MATERIALES ----------------------------- */
+    /* ----------------------------- FIN MATERIALES ----------------------------- */
