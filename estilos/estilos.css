@@ -583,6 +583,12 @@ flex-direction: column;
     height: 30px;
 }
 
+@media (min-width: 380px) and (max-width: 960px) {
+    .card-body {
+        height: 80px;
+    }
+}
+
 .card-body>h5 {
     color: #827777;
     display: flex;
@@ -939,6 +945,17 @@ flex-direction: column;
 
     /* --------------------------------- FOOTER VESTIDOS--------------------------------- */
 
+    .ver-talles{
+        color: #975C58;
+    }
+
+    .ver-talles:hover {
+        color: #F4C1BE;
+        transition: all 0.5s;
+    }
+
+
+
     .fa-instagram,
     .fa-facebook {
         color: #827777;
@@ -967,7 +984,7 @@ flex-direction: column;
         z-index: 100;
         background-color: #F4C1BE;
         position: absolute;
-        top: 850%;
+        top: 895%;
         width: 100%;
     }
 
