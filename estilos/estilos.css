@@ -402,9 +402,147 @@ nav ul li a:hover {
 
 
 /* ------------------- FIN QUIENES SOMOS DESKTOP ------------------ */
+/* ------------------------------ INICIO TALLES ----------------------------- */
+.contenedor_talles{
+    margin-left: 5%;
+    margin-top:5%;
+
+}
+
+.talles1{
+    display: flex;
+    flex-direction: row;
+    gap: 1%;   
+}
+.talles2{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;   
+}
+
+.talles3{
+    margin-top: 2%;
+    display: flex;
+    gap: 25%;
+}
+
+.talles_content{
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.talles4{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
 
 
+.talles1 > p{
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #3E3E3E;
+}
 
+
+.talles1 > h2{
+    font-family: 'Dancing Script', cursive;
+    color: #975C58;
+}
+.talles2 > h2, .talles_content > h2, .talles4 > h2, .talles5 > h2, .talles3_0 > h2{
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #975C58;
+}
+
+.contenedor_hr0 > hr{
+    height: 3px;
+    color:#975C58;
+    width: 40%;
+}
+.contenedor_hr > hr{
+    height: 3px;
+    color:#975C58;
+    width: 80%;
+    border-color: #975C58;
+}
+
+.talles5{
+    margin-top: 3%;
+}
+
+.div_edades{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.imagentalles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagentalles > img{
+    width: 600px;
+    height: 500px;
+}
+
+.button_back{
+    margin-left: 4%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.btn-volver {
+
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #827777;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF;
+}
+/* ------------------------------- FIN TALLES ------------------------------- */
+/* -------------------------- INICIO TALLES CELULAR ------------------------- */
+
+@media (min-width: 380px) and (max-width:960px) {
+
+.contenedor_talles {
+    display: flex;
+flex-direction: column;
+}
+
+.talles_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.talles4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.imagentalles > img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/* --------------------------- FIN TALLES CELULAR --------------------------- */
 /* -------------------------- INICIO VESTIDOS DESKTOP-------------------------- */
 
 .col {
