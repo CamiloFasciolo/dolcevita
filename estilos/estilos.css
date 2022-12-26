@@ -427,6 +427,11 @@ nav ul li a:hover {
     gap: 25%;
 }
 
+.talles3 img {
+padding-right: 4em;
+}
+
+
 .talles_content{
     display: flex;
     flex-direction: row;
