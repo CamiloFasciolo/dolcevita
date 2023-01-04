@@ -920,20 +920,20 @@ flex-direction: column;
     @media (min-width: 300px) and (max-width: 900px) {
         .footerstyle-dolce{
             position: absolute;
-            top: 150%;
+            top: 165%;
             min-width: 100vw;
         }
 
 
     .footerstyle-materiales {
         position: absolute;
-        top: 130%;
+        top: 140%;
         min-width: 100vw;
     }
 
     .footerstyle-quienes {
         position: absolute;
-        top: 133%;
+        top: 150%;
         min-width: 100vw;
     }
 
@@ -989,7 +989,7 @@ flex-direction: column;
         z-index: 100;
         background-color: #F4C1BE;
         position: absolute;
-        top: 1100%;
+        top: 1120%;
         width: 100%;
     }
 
