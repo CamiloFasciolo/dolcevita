@@ -97,7 +97,14 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+    nav ul li a {
+        font-size: 15px;
+    }
 }
 
 nav ul li a:hover {
@@ -120,7 +127,7 @@ nav ul li a:hover {
 }
 
 .tittle-dolcecel {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
     color: #975C58;
 }
@@ -258,7 +265,7 @@ nav ul li a:hover {
 }
 
 .tittle-quienesomoscel {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
     color: #975C58;
 }
@@ -749,7 +756,7 @@ flex-direction: column;
 }
 
 .tittle-materialescel {
-    font-size: 50px;
+    font-size: 40px;
     font-family: 'Dancing Script', cursive;
     color: #3E3E3E;
     display: flex;
@@ -978,6 +985,12 @@ flex-direction: column;
         margin-left: 5%;
     }
 
+    .contenedor_logos i {
+        color: #827777;  
+    }
+
+
+
     .contenedor_logos>h3 {
         font-family: 'Dancing Script', cursive;
         color: #827777;
@@ -1012,6 +1025,9 @@ flex-direction: column;
         object-fit: contain;
     }
 
+    .contenedor_imgs img {
+        color: #827777;
+    }
     /* ----------------------- INICIO FOOTER MEDAS QUERIES ---------------------- */
 
 
