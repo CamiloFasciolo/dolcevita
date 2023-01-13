@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dolce Vita</title>
+    <title>Dolce Vita | Contacto </title>
     <link rel="shotcut icon" href="" type="iamge/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="stylesheet" href="./estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/estilos.css">
 </head>
 
 <body>
 
     <header>
         <div class="rectangulo">
-            <img class="logo" src="./assets/logo.jpg" alt="logo"></a>
+            <img class="logo" src="../assets/logo.jpg" alt="logo"></a>
         </div>
 
         <nav class="navbar">
@@ -30,32 +30,39 @@
         </nav>
     </header>
 
-
-
-    <main class="contenedor_DolceVita">
-        <div class="div5">
-            <img src="./assets/Maskgroup1.jpg">
+    <main class="contenedor-contacto">
+        <div class="div3">
+            <img src="../assets/princesaGlamour.png">
         </div>
-        <div class="div6">
+        <div id="verticle-line">
+        </div>
+        <div class="div4">
+            <h2>Contacto</h2>
             <div class="info2">
-                <h2>Dolce Vita</h2>
-                <p>Es una pasión que nace a fines de 2019,<br> inspirada en la pureza, magia e inocenciad<br> de la
-                    niñez.<br> Esta marca está destinada a vestir<br> pequeñas princesas, desde su nacimiento<br> hasta
-                    su adolescencia.<br> La colección presenta confecciones de piezas<br> exclusibas y diseños
-                    innovadores de Alta<br> Costura, incorporando moda y tendencia<br> actual, con la impronta de su
-                    diseñadora<br> que lo hace original y diferente.
-                </p>
-                <div class="input-Box2">
-                    <a class="buttondolce" href="vestidos.html">Nuestros Productos</a>
+                <form action="https://formsubmit.co/claudiavitali74@gmail.com" method="post">
+                    <div class="inputs-boxes">
+                        <div class="input-Box">
+                            <input type="text" placeholder="Nombre" name="Nombre" required="required">
+                        </div>
+                        <div class="input-Box">
+                            <input type="text" placeholder="Email" name="Correo" required="required">
+                        </div>
+                        <div class="input-Box">
+                            <input type="text" placeholder="Teléfono" name="Telefono" required="required">
+                        </div>
+                    </div>
+            </div>
+            <div class="info3">
+                <div class="input-Box">
+                    <textarea required="required" placeholder="Mensaje"></textarea>
                 </div>
             </div>
-        </div>
-        <div class="arrowright">
-            <a href="vestidos.html"><i class="fa-solid fa-arrow-right"></i></a>
-        </div>
+            <div class="input-Box2">
+                <input type="submit" name="Enviar" value="Enviar">
+            </div>
+            <input type="hidden" name="_captcha" value="false">
+            </form>
     </main>
-
-
 
     <footer>
         <section class="footerstyle">
@@ -76,6 +83,10 @@
             </section>
         </section>
     </footer>
+
+
+
+
 
 
     <script src="https://kit.fontawesome.com/4946a7d77f.js" crossorigin="anonymous"></script>

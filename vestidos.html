@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- ---------------------------- FIN BOOTSTRAP ---------------------------- -->
-    <title>Vestidos</title>
+    <title>Vestidos | Dolce vita</title>
 </head>
 
 <body>
@@ -26,44 +26,19 @@
         <img class="logo" src="./assets/logo.jpg" alt="logo"></a>
         <!-- ----------------------------- LOGO DOLCE ------------------------------ -->
     </div>
-    <header class="header-index">
-        <!-- ------------------------------- NAVBAR -------------------------------- -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-gatips navbar-text">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    <!-- ------------------------------ H1 NAVBAR ------------------------------ -->
-                    <h1 class="text-header">
-                        <a href="dolcevita.html">Dolce vita</a>
-                    </h1>
-                    <!-- ------------------------------ H1 NAVBAR ------------------------------ -->
-                </a>
-                <button class="navbar-toggler boton-nav" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item ">
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                            <a class="nav-link" href="vestidos.html">Vestidos</a>
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                        </li>
-                        <li class="nav-item ">
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                            <a class="nav-link" href="quienesomos.html">Quienes somos</a>
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                        </li>
-                        <li class="nav-item">
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                            <a class="nav-link" href="materiales.html"> Materiales</a>
-                            <!-- ------------------------------- ENLACES -------------------------------- -->
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <header>
+        <div class="rectangulo">
+            <img class="logo" src="./assets/logo.jpg" alt="logo"></a>
+        </div>
+
+        <nav class="navbarvestidos">
+            <ul>
+                <li><a href="dolcevita.html">Dolce Vita</a></li>
+                <li><a href="vestidos.html">Vestidos</a></li>
+                <li><a href="materiales.html">Materiales</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
         </nav>
-        <!-- ------------------------------- NAVBAR -------------------------------- -->
     </header>
 
 
@@ -203,7 +178,7 @@
         </div>
     </main>
     <footer>
-        <section class="footerstyle">
+        <section class="footerstylevestidos">
             <div class="contenedor_logos">
                 <h3>Seguinos</h3>
                 <div class="logos2">
@@ -214,11 +189,12 @@
                 </div>
             </div>
             <section class="contenedor_imgs">
-                <img src="./assets/correo.png" alt="imgCorreo">
+                <i class="fa-solid fa-truck"></i>
                 <p><b>Envios a todo el país</b></p>
-                <img src="./assets/billetera.png" alt="imgCard">
+                <i class="fa-solid fa-credit-card"></i>
                 <p><b>Todos los medios de pago</b></p>
             </section>
+        </section>
     </footer>
     <!-- ----------------------------- FONTAWESOME ----------------------------- -->
     <script src="https://kit.fontawesome.com/4946a7d77f.js" crossorigin="anonymous"></script>
