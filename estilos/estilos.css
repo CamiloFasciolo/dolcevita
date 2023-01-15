@@ -597,26 +597,6 @@ hr {
     grid-row-start: span 2;
 }
 
-/* ----------------------------- CSS BIENVENIDA ----------------------------- */
-
-.fondo-bienvenida {
-    min-width: 100vw;
-    min-height: 100vh;
-    background-color: #f5e5e4;
-    position: absolute;
-    top: 0%;
-    z-index: 50;
-}
-
-.frase-bienvenida {
-    position: absolute;
-    z-index: 150;
-    top: 45%;
-    left: 33%;
-    color: white;
-    font-family: 'Lobster', cursive;
-    font-size: 70px;
-}
 
 /* -------------------------------- CSS HEADER ------------------------------- */
 
@@ -1415,11 +1395,16 @@ nav ul li a:hover {
         padding-right: 6em;
     }
 
+
+        .footerstylevestidos {
+            background-color: #F4C1BE;
+            position: absolute;
+            top: 220em;
+            width: 100%;
+        }
+    
+
 }
-
-
-
-
 
 
 .card-body>h5 {
@@ -1440,7 +1425,7 @@ nav ul li a:hover {
 .footerstylevestidos {
     background-color: #F4C1BE;
     position: absolute;
-    top: 3450px;
+    top: 215em;
     width: 100%;
 }
 
@@ -1450,6 +1435,12 @@ nav ul li a:hover {
 .img-fondo {
     min-width: 100vw;
     max-height: 100vh;
+}
+
+.frase-bienvenida {
+    position: absolute;
+    top: 40%;
+    left: 33%;
 }
 
 .frase-bienvenida a {
@@ -1467,16 +1458,38 @@ nav ul li a:hover {
     top: 10%;
 }
 
+
+@media (min-width: 1280px) and (max-width: 2000px) {
+
+
+.dolce-img {
+    display: none;
+}
+
+}
 /* ------------------------ MEDIA QUERIES BIENVENIDA ------------------------ */
 
 @media (min-width: 320px) and (max-width: 1280px) {
 
-    .img-fondo {
-        min-width: 100vw;
-        max-height: 100vh;
-    }
+.img-fondo {
+height: 960px;
+}
 
 
+.vector, .vector1, .vector2, .vector4 {
+    display: none;
+}
+
+
+.dolce-img {
+    width: 400px;
+}
+
+.frase-bienvenida {
+    position: absolute;
+    top: 40%;
+    left: 13%;
+}
 }
 
 /* ----------------------------- MEDIAS QUERIES PAGES ----------------------------- */
