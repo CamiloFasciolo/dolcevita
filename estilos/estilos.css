@@ -1486,82 +1486,45 @@ nav ul li a:hover {
         padding: 20px;
     }
 
-
-
 }
 
 
-/* ------------------------------- BIENVENIDA ------------------------------- */
+/* ------------------------------ BIENVENIDA ------------------------------ */
 
+.bienvenida-body {
+    background-color: #F4C1BE;
+}
 
-.img-fondo {
-    min-width: 100vw;
-    max-height: 100vh;
+.dolce-frase {
+    width: 500px;
+
 }
 
 .frase-bienvenida {
     position: absolute;
-    top: 40%;
-    left: 33%;
+    top: 36%;
+    left: 35%;
 }
 
 .frase-bienvenida a {
     text-decoration: none;
 }
 
-.vector {
-    position: absolute;
-    top: 6%;
-}
 
-.vector4 {
-    position: absolute;
-    left: 40px;
-    top: 10%;
-}
+@media (min-width: 300px) and (max-width: 960px) {
 
 
+    .frase-bienvenida {
+        position: absolute;
+        top: 30%;
+        left: 16%;
+    }
+    
+    .dolce-frase {
+        width: 250px;
+    }
 
-@media (min-width: 1280px) and (max-width: 2000px) {
-
-.bienvenida-cel {
-    display: none;
-}
-
-.dolce-img {
-    display: none;
-}
-
-}
-/* ------------------------ MEDIA QUERIES BIENVENIDA ------------------------ */
-
-@media (min-width: 300px) and (max-width: 1280px) {
-
-.bienvenida-compu {
-    display: none;
-}
-
-.img-fondo {
-height: 960px;
-}
-
-
-.vector, .vector1, .vector2, .vector4 {
-    display: none;
-}
-
-
-.frase-bienvenida {
-    position: absolute;
-    top: 40%;
-    left: 13%;
-}
-
-
-}
-
-
-.dolce-frase {
-    width: 350px;
-    margin-left: 0.5em;
-}
+    .bienvenida-body {
+        height: 960px;
+    }
+    }
