@@ -1332,7 +1332,7 @@ nav ul li a:hover {
 
 /* -------------------------------- VESTIDOS -------------------------------- */
 @media (min-width: 960px) and (max-width: 2000px) {
-    
+
     .footerstylevestidos-cel {
         display: none;
     }
@@ -1470,11 +1470,12 @@ nav ul li a:hover {
 @media (min-width: 1280px) and (max-width: 2000px) {
 
 
-.dolce-img {
-    display: none;
-}
+    .dolce-img {
+        display: none;
+    }
 
 }
+
 /* ------------------------ MEDIA QUERIES BIENVENIDA ------------------------ */
 
 
@@ -1511,20 +1512,36 @@ nav ul li a:hover {
 }
 
 
-@media (min-width: 300px) and (max-width: 960px) {
+@media (min-width: 300px) and (max-width: 768px) {
 
 
     .frase-bienvenida {
         position: absolute;
-        top: 30%;
-        left: 16%;
+        top: 38%;
+        left: 21%;
     }
-    
+
     .dolce-frase {
-        width: 250px;
+        width: 300px;
     }
 
     .bienvenida-body {
-        height: 960px;
+        max-height: 100vh;
     }
+
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+
+    .frase-bienvenida {
+        position: absolute;
+        top: 36%;
+        left: 27%;
     }
+
+    .dolce-frase {
+        width: 450px;
+    }
+
+
+}
